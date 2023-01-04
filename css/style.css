@@ -1,0 +1,593 @@
+body {
+   position: absolute;
+    min-width: 1335px;            
+    background-color: #18063C;
+    background-repeat: no-repeat;       
+    height: 100vh;
+    width: 100%;  
+    
+}
+
+.container{
+max-width: 1440px;
+margin: 0 auto;
+
+}
+
+
+.nav1{
+    list-style-type: none;       
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 350px;
+    position: absolute;
+    width: 84px;
+    height: 24px;
+    margin-top: -45px;
+}
+.nav2{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;  
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -45px;
+}
+.nav3{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;  
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-left: 720px;
+    margin-top: -45px;
+    position: absolute;
+    
+}
+
+.nav1:hover{
+opacity: 0.7;
+}
+.nav2:hover{
+opacity: 0.7;
+}
+
+.nav3:hover{
+opacity: 0.7;
+}
+        
+
+
+.chelovek{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    margin-left: 840px;
+    margin-top: -200px;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 55px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .07s ease-in-out;
+    font-family: 'Lora';
+    font-weight: 100;
+}
+
+
+.img {
+    margin-left: 5px;
+
+}
+
+
+
+
+
+.callback {
+   
+    box-sizing: border-box;
+
+position: absolute;
+width: 170px;
+height: 50px;
+margin-left: 1150px;
+margin-top: -60px;
+background: rgba(111, 35, 138, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+text-decoration: none;
+transition: all .1s ease-out;
+color: #ffffff;
+
+font-family: 'Montserrat';
+font-style: normal;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.callback:hover {
+    transform: scale(1.04);
+   
+}
+
+.img{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.best {
+margin-top: 100px;
+margin-left: 30px;
+font-size: 45px;
+color: #ffffff;
+font-family: 'Montserrat';
+
+}
+
+
+span {
+    margin-left: 30px;
+    font-family: 'Langar';   
+    font-size: 45px;   
+    font-weight: 900;
+    text-shadow: 0 0 2px rgb(96, 34, 155);
+    color: #0A0718;
+  }
+  @supports (-webkit-text-stroke: 1px white) {
+    span {
+      text-shadow: none;
+      color: transparent;
+      -webkit-text-stroke: 1px rgb(96, 34, 155);
+    }
+  }
+
+  .best2{
+margin-top: -100px;
+font-size: 45px;
+margin-left: 30px;
+}
+
+.malaya{
+font-size: 14px;
+margin-top: -25px;
+color: #ffffff;
+font-family: 'Montserrat';
+margin-left: 30px;
+opacity: 0.75;
+
+}
+
+.explore{
+position: absolute;
+margin-left: 30px;
+color: #ffffff;
+font-family: 'Montserrat';
+font-size: 20px;
+padding: 15px 30px;
+background-color: rgba(97, 34, 155, 0.897);
+border-radius: 5%;
+transition: all .1s ease-out;
+text-decoration: none;
+}
+
+.explore:hover{
+    transform: scale(1.04); 
+}
+
+.upload{
+font-size: 20px;
+position: absolute;
+margin-left: 250px;
+margin-top: 2px;
+text-decoration: none;
+font-family: 'Montserrat';
+border-radius: 5%;
+transition: all .1s ease-out;
+background-color: rgba(114, 85, 141, 0.507);
+color: #ffffff;
+padding: 12px 25px;
+opacity: 0.8;
+border: 2px solid rgb(96, 34, 155);
+
+}
+
+.upload:hover{
+transform: scale(1.04);
+}
+.tatata11{
+    position: absolute;
+color: #ffffff;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Langar';
+margin-left: 30px;
+margin-top: 105px;
+}
+.tatata22{
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Langar';
+margin-left: 30px;
+margin-top: 168px;
+}
+.tatata33{
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Langar';
+margin-left: 30px;
+margin-top: 230px;
+}
+
+
+.svet1{
+    position: absolute;
+    width: 1119px;
+    height: 1349px;
+    left: 50px;
+    top: 170px;
+    
+    background-repeat: no-repeat;
+}
+.Wallet{
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    margin-left: 50px;
+    margin-top: 390px;
+    
+    font-family: 'Langar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    
+    color: #FFFFFF;
+    
+}
+.Support{
+    position: absolute;
+    width: 311px;
+    height: 46px;
+    margin-left: 53px;
+    margin-top: 450px;
+    
+    font-family: 'Langar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    
+    color: #FFFFFF;
+    
+}
+.metamask{
+position: absolute;
+margin-left: 60px;
+margin-top: 530px;
+height: 70px;
+border-radius: 5%;
+border: 1.5px solid rgb(96, 34, 155);
+padding: 10px 10px;
+}
+.metamask:hover{
+    transform: scale(1.1);
+}
+.binance{
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 530px;
+    height: 70px;
+    border-radius: 5%;
+    border: 1.5px solid rgb(96, 34, 155);
+    padding: 10px 10px;
+}
+.binance:hover{
+    transform: scale(1.1);
+}
+.trustwallet{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 530px;
+    height: 70px;
+    border-radius: 5%;
+    border: 1.5px solid rgb(96, 34, 155);
+    padding: 10px 10px;
+}
+.trustwallet:hover{
+    transform: scale(1.1);
+}
+
+.tatata11:hover{
+    transform: scale(1.06);
+}
+.tatata22:hover{
+    transform: scale(1.06);
+}
+.tatata33:hover{
+    transform: scale(1.06);
+}
+.svet{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 500px;
+    width: 350px;
+}
+.networks{
+position: absolute;
+margin-top: 690px;
+margin-left: 55px;
+color: #FFFFFF;
+font-family: 'Langar';
+font-size: 32px;
+}
+.insta{
+position: absolute;
+margin-top: 770px;
+margin-left: 60px;
+border-radius: 5%;
+border: 1.5px solid rgb(96, 34, 155);
+    padding: 10px 10px;
+    height: 70px;
+}
+.twitter{
+        position: absolute;
+        margin-top: 770px;
+       margin-left: 195px;
+        border-radius: 5%;
+        border: 1.5px solid rgb(96, 34, 155);
+        padding: 10px 10px;
+        height: 70px;
+}
+.ds{
+    position: absolute;
+    margin-top: 770px;
+    margin-left: 330px;
+    border-radius: 5%;
+    border: 1.5px solid rgb(96, 34, 155);
+        padding: 10px 10px;
+        height: 70px;
+}
+.ds:hover{
+    transform: scale(1.1);
+}
+.insta:hover{
+    transform: scale(1.1);
+}
+.twitter:hover{
+    transform: scale(1.1);
+}
+.what-nft{
+position: absolute;
+font-size: 25px;
+margin-top: 550px;
+margin-left: 740px;
+color: #FFFFFF;
+font-family: 'Underdog';
+}
+.what-nft2{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 600px;
+    margin-left: 575px;
+    color: #FFFFFF;
+    font-family: 'Underdog';
+    border: 0.1px solid rgb(96, 34, 155);
+        padding: 8px 15px;        
+}
+.futnav{
+position: absolute;
+width: 133px;
+height: 32px;
+margin-left: 117px;
+margin-top: 1012px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+
+color: #FFFFFF;
+}
+
+.futmarket{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    margin-left: 117px;
+    margin-top: 1070px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    
+    color: #FFFFFF;   
+}
+
+.futcreate{
+    position: absolute;
+    width: 169px;
+    height: 20px;
+    margin-left: 117px;
+    margin-top: 1105px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;   
+    color: #FFFFFF;    
+}
+
+.futresurs{
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    margin-left: 117px;
+    margin-top: 1140px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.futmarket:hover{
+   
+    opacity: 0.5;
+}
+.futcreate:hover{
+    opacity: 0.5;
+}
+.futresurs:hover{
+   opacity: 0.5; 
+}
+.liniya{
+
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 990px;
+    opacity: 0.2;
+    border: 0.3px solid #FFFFFF;
+    
+}
+
+.community{
+    position: absolute;
+    width: 224px;
+    height: 31px;
+    margin-left: 415px;
+    margin-top: 1012px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #FFFFFF;   
+}
+.futinst{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 412px;
+    margin-top: 1400px;
+}
+
+.futtwit{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    margin-left: 405px;
+    margin-top: 1435px;
+}
+
+.futds{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 415px;
+    margin-top: 1485px;
+}
+
+.futinst:hover{
+    transform: scale(1.06);
+}
+.futtwit:hover{
+    transform: scale(1.06);
+}
+.futds:hover{
+    transform: scale(1.06);
+}
+.email{
+    position: absolute;
+    width: 689px;
+    height: 86px;
+    margin-left: 670px;
+    margin-top: 998px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+}
+.signup{
+    position: absolute;
+
+
+margin-left: 900px;
+margin-top: 1170px;
+color: #FFFFFF;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+
+font-size: 16px;
+
+background-color: rgba(97, 34, 155, 0.897);
+border-radius: 5px;
+padding: 15px 15px;
+
+}
+.signup:hover{
+    transform: scale(1.06);
+}
+header {  
+  background-color: #18063C;
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%;     
+    }
+.marker{
+position: absolute;
+margin-top: 1230px;
+margin-left: 600px;
+color: #FFFFFF;
+text-decoration: none;
+font-size: 12px;
+}
+.name{
+position: absolute;
+margin-top: 1210px;
+margin-left: 1200px;
+font-size: 20px;
+color: #FFFFFF;
+}
+.soc{
+position: absolute;
+margin-top: -350px;
+margin-left: 0px;
+}
