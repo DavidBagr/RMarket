@@ -13,14 +13,7 @@ max-width: 1440px;
 margin: 0 auto;
 
 }
-header {  
-  background-color: #18063C;
-    position: fixed;  
-    top: 0;  
-    z-index: 100;  
-    width: 100%;  
-    
-    }
+
 
 .nav1{
     list-style-type: none;       
@@ -571,6 +564,13 @@ padding: 15px 15px;
 .signup:hover{
     transform: scale(1.06);
 }
+header {  
+  background-color: #18063C;
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%;     
+    }
 .marker{
 position: absolute;
 margin-top: 1230px;
